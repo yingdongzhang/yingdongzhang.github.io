@@ -4,4 +4,36 @@ title:  "Welcome"
 date:   2016-04-15 13:37:30 +1000
 categories: [diary,中文]
 ---
-Welcome
+I recently decided to start a blog.
+
+The purpose is not to be seen by many. It is just me forcing myself to keep track of things that are worth remembering. It could be some new techincal knowledege that I have learned, it could be some problems that I have enountered from work, or it could just be some key moments in my life.
+
+A lot of things happened over the last few years. I decided to go abroad for studying, then I decided to apply for a PR(Permanent Residence) visa and settle down in Australia. After that I started working as a software developer in Melbourne. Some of those happened too fast than I expected. Unfortunately I didn't keep a record of, as people say, a journey of the heart.
+
+Now it is the time.
+
+I'll mainly publish techinical articles, plus some "not super personal" diary. I'll also try to write in both Chinese and English. As English is my second language, this would give me a chance to practise and learn more from what I write down.
+
+Please let me know if you find a mistake somewhere so I can improve.
+
+Thank you.
+
+15 Apr, 2016 @ Melbourne
+
+---
+
+# 开篇
+
+最近有种强烈的愿望，写博客。
+
+其实目的不是为了被多少人看到，更多的是强迫自己去记录一些东西。不管是技术学习方面的，还是工作中遇到的困难和问题，或是生活中一些值得记录的事情，觉得自己有必要记录下来。
+
+过去几年时间，我的人生轨迹发生了很大的变化。毕业前临时决定出国，后来又临时决定在澳洲拿绿卡定居。很多事情发生的速度超过了我的预期。但是很遗憾，我并没有记录下自己的心路历程。
+
+现在是时候了。
+
+这个博客会以技术类的文章为主，加上生活中的一些随笔。有些文章我会用中文和英文两种语言来写，给自己一个持续学习、练习英文这个第二语言的机会。博客中的文章仅仅阐述个人观点，如有错误欢迎指正以帮助我提高自己。
+
+非常感谢。
+
+2016年4月15日 于 墨尔本
