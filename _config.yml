@@ -7,6 +7,7 @@
 
 # Site settings
 title: Yingdong Zhang
+motto: Pursue excellence and success will follow.
 email: daniel.ydzhang@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Yingdong Zhang's Personal Website
@@ -14,6 +15,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yingdongzhang.github.io/" # the base hostname & protocol for your site
 twitter_username: Daniel_Yingdong
 github_username:  yingdongzhang
+categories: ["post", "diary", "中文"]
 
 # Build settings
 markdown: kramdown
