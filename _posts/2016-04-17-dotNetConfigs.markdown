@@ -15,7 +15,7 @@ Now in B I want to access all the config settings from both A and B. This's very
 
 ```cs
 string config3 = B.Properties.Settings.Default.Config3;
-string config4 = B.Properties.Settings.Default.Config4;
+int config4 = B.Properties.Settings.Default.Config4;
 ```
 
 However, when you try to access A's config settings, you will encounter `the get accessor is inaccessible` error, which makes sense since A is not exposing its config settings to the outside world.
@@ -37,7 +37,7 @@ After that you can access Config1 and Config2 like normal:
 
 ```cs
 string config1 = A.Properties.Settings.Default.Config1;
-string config2 = B.Properties.Settings.Default.Config2;
+int config2 = B.Properties.Settings.Default.Config2;
 ```
 
 ### 2. Expose A's config settings
@@ -50,5 +50,5 @@ Then you can access A's Config1 and Config2 like this:
 
 ```cs
 string config1 = A.ConfigExposer.Config1;
-string config2 = A.ConfigExposer.Config2;
+int config2 = A.ConfigExposer.Config2;
 ```
