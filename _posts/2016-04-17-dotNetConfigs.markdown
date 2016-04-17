@@ -18,7 +18,7 @@ string config3 = B.Properties.Settings.Default.Config3;
 int config4 = B.Properties.Settings.Default.Config4;
 ```
 
-However, when you try to access A's config settings, you will encounter `the get accessor is inaccessible` error, which makes sense since A is not exposing its config settings to the outside world.
+However, when you try to access A's config settings, you will encounter the `get accessor is inaccessible` error, which makes sense since A is not exposing its config settings to the outside world.
 
 ![Inaccessible Settings](/assets/dotNetConfig/inaccessible.png)
 
@@ -37,7 +37,7 @@ After that you can access Config1 and Config2 like normal:
 
 ```cs
 string config1 = A.Properties.Settings.Default.Config1;
-int config2 = B.Properties.Settings.Default.Config2;
+int config2 = A.Properties.Settings.Default.Config2;
 ```
 
 ### 2. Expose A's config settings
