@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome"
+title:  "Welcome/欢迎"
 date:   2016-04-15 13:37:30 +1000
-categories: [diary,中文]
+categories: [post,diary,中文]
 comments: false
 ---
 I recently decided to start a blog.
