@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome"
 date:   2016-04-15 13:37:30 +1000
 categories: [diary,中文]
+comments: false
 ---
 I recently decided to start a blog.
 
@@ -24,7 +25,7 @@ Thank you.
 
 # 开篇
 
-最近有种强烈的愿望，写博客。
+最近有个强烈的愿望，写博客。
 
 其实目的不是为了被多少人看到，更多的是强迫自己去记录一些东西。不管是技术学习方面的，还是工作中遇到的困难和问题，或是生活中一些值得记录的事情，觉得自己有必要记录下来。
 
