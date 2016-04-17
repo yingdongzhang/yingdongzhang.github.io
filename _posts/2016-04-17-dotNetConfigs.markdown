@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Acess Another Project's Config File with .NET Projects"
+title:  "Acess Another Project's Config Settings with .NET Projects"
 date:   2016-04-17 11:00:30 +1000
 categories: [post,.NET]
 comments: true
