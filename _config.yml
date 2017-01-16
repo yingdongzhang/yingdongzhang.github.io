@@ -15,7 +15,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yingdongzhang.github.io/" # the base hostname & protocol for your site
 twitter_username: Daniel_Yingdong
 github_username:  yingdongzhang
-categories: ["post", ".NET", "diary", "中文"]
+categories: ["post", ".NET", "diary", "中文", "php", "Laravel"]
 
 # Build settings
 markdown: kramdown
