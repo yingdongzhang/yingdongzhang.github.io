@@ -17,7 +17,7 @@
 ## => Site Settings
 ##############################
 text_color_theme: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-url: # the base hostname & protocol for your site e.g. https://www.someone.com
+url: http://yingdongzhang.github.io/
 baseurl: # does not include hostname
 title: Yingdong Zhang's blog
 motto: Pursue excellence and success will follow.
