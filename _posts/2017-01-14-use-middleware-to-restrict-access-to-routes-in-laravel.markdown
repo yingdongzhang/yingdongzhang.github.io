@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: article
+mathjax: true
 title:  "Use Middleware to restrict access to routes in Laravel"
 date:   2017-01-14 20:30:30 +1100
-categories: [post,php,Laravel]
+tags: [php,Laravel]
+category: blog
 comments: true
 ---
 

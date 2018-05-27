@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: article
+mathjax: true
 title:  "Using Trait in Laravel"
 date:   2017-01-16 21:48:30 +1100
-categories: [post,php,Laravel]
+tags: [php,Laravel]
+category: blog
 comments: true
 ---
 

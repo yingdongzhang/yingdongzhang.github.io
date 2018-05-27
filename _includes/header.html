@@ -1,51 +1,43 @@
 <header class="header">
-  <div class="header-container">
-    <div class="nav">
-      {% if page.meta == "home" %}
-      <span class="title">
-        <li>
-          <a class="page-link" href="{{ site.baseurl }}">home</a>
-        </li>
-      </span>
-      {% else %}
-        <li>
-          <a class="site-title" href="{{ site.baseurl }}/">home</a>
-        </li>
-      {% endif %}
-      {% if page.meta == "archive" %}
-      <span class="title">
-        <li>
-          <a class="site-title" href="{{ '/archive' | prepend: site.baseurl }}/">archive</a>
-        </li>
-      </span>
-      {% else %}
-        <li>
-          <a class="site-title" href="{{ '/archive' | prepend: site.baseurl }}/">archive</a>
-        </li>
-      {% endif %}
-      {% if page.meta == "category" %}
-      <span class="title">
-        <li>
-          <a class="site-title" href="{{ '/category' | prepend: site.baseurl }}/">category</a>
-        </li>
-      </span>
-      {% else %}
-        <li>
-          <a class="site-title" href="{{ '/category' | prepend: site.baseurl }}/">category</a>
-        </li>
-      {% endif %}
-      {% if page.meta == "about" %}
-      <span class="title">
-        <li>
-          <a class="site-title" href="{{ '/about' | prepend: site.baseurl }}/">about</a>
-        </li>
-      </span>
-      {% else %}
-        <li>
-          <a class="site-title" href="{{ '/about' | prepend: site.baseurl }}/">about</a>
-        </li>
-      {% endif %}
+  <div class="main clearfix">
+    <div class='logo'>
+    {%- include svg/logo.svg -%}
+    {%- assign __path = site.paths.base | default: site.data.variables.default.paths.base  -%}
+    {%- include snippets/get-nav-url.html -%}
+    {%- if site.title -%}
+      <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
+    {%- endif -%}
     </div>
-    <div class="description"> {{ site.motto }} </div>
+    <nav>
+      <ul>
+        {%- assign __path = site.paths.home | default: site.data.variables.default.paths.home -%}
+        {%- include snippets/get-nav-url.html -%}
+        {%- assign href = __return -%}
+        {%- assign __locale = site.data.locale.NAV.HOME -%}
+        {%- include snippets/locale-to-string.html -%}
+        <li><a href="{{ href }}">{{ __return }}</a></li>
+        {%- assign __path = site.paths.all | default: site.data.variables.default.paths.all -%}
+        {%- include snippets/get-nav-url.html -%}
+        {%- assign href = __return -%}
+        {%- assign __locale = site.data.locale.NAV.ALL -%}
+        {%- include snippets/locale-to-string.html -%}
+        <li><a href="{{ href }}">{{ __return }}</a></li>
+        {%- for list in site.nav_lists -%}
+          {%- assign __path = list.url -%}
+          {%- include snippets/get-nav-url.html -%}
+          {%- assign _nav_url = __return -%}
+          {%- assign __path = page.url -%}
+          {%- include snippets/get-nav-url.html -%}
+          {%- assign _page_url = __return -%}
+          {%- assign __locale = list.titles -%}
+          {%- include snippets/locale-to-string.html -%}
+          {%- if _nav_url == _page_url -%}
+            <li class="active"><a href="{{ _nav_url }}">{%- if list.title -%}{{ list.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+          {%- else -%}
+            <li><a href="{{ _nav_url }}">{%- if list.title -%}{{ list.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </nav>
   </div>
 </header>

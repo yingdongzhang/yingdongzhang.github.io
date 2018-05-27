@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: article
+mathjax: true
 title:  "Block Back Navigation in React Native on Android with React Navigation and Redux"
 date:   2018-03-12 21:00:00 +1000
-categories: [post,Javascript,React Native]
+tags: [Javascript, React Native]
+category: blog
 comments: true
 ---
 
