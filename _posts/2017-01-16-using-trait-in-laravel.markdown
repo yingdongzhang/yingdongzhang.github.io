@@ -1,11 +1,12 @@
 ---
 layout: article
 mathjax: true
+titles:
+  en: Using Trait in Laravel
 title:  "Using Trait in Laravel"
 date:   2017-01-16 21:48:30 +1100
 tags: [php,Laravel]
 category: blog
-comment: true
 ---
 
 Recently I got a chance to build a CRM system using [Laravel](https://laravel.com/) and [Backpack](https://backpackforlaravel.com/).

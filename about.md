@@ -6,6 +6,7 @@ titles:
   zh-Hans: 关于
   zh-Hant: 關於
 key: page-about
+comment: false
 ---
 I am a web developer based in Melbourne, Australia
 
