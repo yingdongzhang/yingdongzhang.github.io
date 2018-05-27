@@ -5,7 +5,7 @@ title:  "Acess Another Project's Config Settings with .NET Projects"
 date:   2016-04-17 11:00:30 +1000
 tags: .NET
 category: blog
-comments: true
+comment: true
 ---
 When working with .NET projects, you will certainly come across the need to access another project's configuration settings. Here are some tips on how to do it.
 

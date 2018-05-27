@@ -5,7 +5,7 @@ title:  "Use Middleware to restrict access to routes in Laravel"
 date:   2017-01-14 20:30:30 +1100
 tags: [php,Laravel]
 category: blog
-comments: true
+comment: true
 ---
 
 Sometimes you want to restrict users with certain roles to access certain routes. This is how I learned to do it with middleware.
